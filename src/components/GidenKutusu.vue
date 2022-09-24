@@ -71,19 +71,17 @@
       <thead>
         <tr>
           <th class="text-left">
-            Name
+            Fatura Bilgisi
           </th>
           <th class="text-left">
-            Calories
+            Tarih
           </th>
           <th class="text-left">
-            Carbs
-          </th>
+            Alıcı Bilgisi          </th>
           <th class="text-left">
-            Fat
-          </th>
+            Fatura Durumu          </th>
           <th class="text-left">
-            protein
+            Cevap
           </th>
         </tr>
       </thead>
@@ -119,13 +117,13 @@
           text: 'Dessert (100g serving)',
           align: 'start',
           filterable: false,
-          value: 'name',
+          value: 'Fatura Bilgisi',
         },
-        { text: 'Calories', value: 'calories' },
-        { text: 'Fat (g)', value: 'fat' },
-        { text: 'Carbs (g)', value: 'carbs' },
-        { text: 'Protein (g)', value: 'protein' },
-        { text: 'Iron (%)', value: 'iron' },
+        { text: 'Tarih', value: 'Tarih' },
+        { text: 'Alıcı Bilgisi', value: 'Alıcı Bilgisi' },
+        { text: 'Fatura Durumu', value: 'Fatura Durumu' },
+        { text: 'Cevap', value: 'Cevap' },
+       
       ],
       desserts: [
         {

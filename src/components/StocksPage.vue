@@ -109,8 +109,7 @@
    </template>
    <script>
    export default {
-     name: 'MenuPage',
-     el: '#app',
+     name: 'StocksPage',
      data () {
     return {
       search: '',

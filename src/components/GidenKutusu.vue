@@ -107,8 +107,7 @@
    </template>
    <script>
    export default {
-     name: 'MenuPage',
-     el: '#app',
+     name: 'GidenKutusu',
      data () {
     return {
       search: '',

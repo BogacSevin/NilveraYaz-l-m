@@ -47,7 +47,6 @@
     <script>
     export default {
       name: 'MenuPage',
-      el: '#app',
       data: () => ({
     open: ['Users'],
     admins: [

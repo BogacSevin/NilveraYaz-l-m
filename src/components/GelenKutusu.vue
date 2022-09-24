@@ -114,8 +114,7 @@
    <script>
     import axios from 'axios';
    export default {
-     name: 'MenuPage',
-     el: '#app',
+     name: 'GelenKutusu',
      data () {
       
     return {
